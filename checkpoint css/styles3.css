@@ -1,0 +1,53 @@
+
+  body{
+    background-color: rgba(7, 189, 245, 0.788);
+  }
+  body{
+    margin: 0;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    background-color: #4dace2;
+    position: fixed;
+    height: 80%;
+    overflow: auto;
+    font-family: fantasy;
+  }
+  
+  li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  li a.active {
+    background-color: #045faa;
+    color: rgb(190, 71, 71);
+  }
+  
+  li a:hover:not(.active) {
+    background-color: rgb(85, 85, 85);
+    color: rgb(196, 103, 103);
+  }
+  #titre3{
+    color: rgb(22, 143, 223);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 120px;
+    font-family: fantasy;
+
+
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: transparent;
+}
